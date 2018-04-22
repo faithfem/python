@@ -22,6 +22,16 @@ lowest_price = 100
 print("The {} is at {} today.".format(stock_index,price))
 print("The {} is at {} today.".format(stock_index,lowest_price))
 
+#nested lists
+#given variable below, use indexing and key calls to grab:
+#i. yesterday's SP500 price of 250
+#ii. the number 365 nested inside a list nested inside the "info" key
+stock_info = {'sp500':{'today':300,'yesterday': 250}, 'info':['Time',[24,7,365]]}
+print stock_info.keys()
+
+
+
+
 
 
 
