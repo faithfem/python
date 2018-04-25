@@ -1,3 +1,2 @@
-def my_list(1,2,3):
-np.array(my_list)
-print np.array
+np.linspace(0,10,3)
+np.ones((2,4,2))
